@@ -1,36 +1,33 @@
----
-title: PPIIA Public Policy Insight Impact Analyzer
-emoji: 🏛️
-colorFrom: blue
-colorTo: green
-sdk: streamlit
-sdk_version: 1.32.0
-app_file: app.py
-pinned: false
----
+# Public Policy Insight & Impact Analyzer (PPIIA)
 
-# PPIIA — Public Policy Insight & Impact Analyzer
-Simplifying Government Bills for Every Citizen
+## Overview
 
-GUVI x HCL Capstone Project | CivicTech / Public Policy Analytics
+PPIIA is an AI-powered application that helps users understand government bills by generating simplified summaries, topic classifications, impact assessments, and risk analyses from bill documents.
 
-## What it does
-- Bill topic classification
-- Citizen-friendly summary
-- Legislative chronology
-- Affected sectors and industries
-- Short / Medium / Long term impact
-- Risk detection
-- Downloadable JSON and PDF reports
+## Features
 
-## How to use
-1. Upload any Indian parliamentary bill PDF
-2. Or paste a Sansad URL
-3. Click Analyze Bill
-4. View results across 6 tabs
-
-## Data Source
-https://sansad.in/ls/knowledge-centre/government-bills
+* PDF Bill Upload
+* Bill Summarization
+* Topic Classification
+* Impact Analysis
+* Risk Detection
+* Interactive Streamlit Dashboard
 
 ## Tech Stack
-- PyMuPDF, Streamlit, Transformers (BART), fpdf2, textstat
+
+* Python
+* Streamlit
+* NLP
+* Transformers
+* Hugging Face
+
+## Deployment Links
+
+### Hugging Face Space
+
+https://huggingface.co/spaces/Senbagarajapandi/PPIIA
+
+## Dataset Source
+
+Official Government Bills Portal:
+https://sansad.in/ls/knowledge-centre/government-bills
